@@ -1,21 +1,26 @@
-# js-library-template
+# react-autobind-hmr
 
-A template for writing next awesome JavaScript library.
+Wrapper for react-autobind that adds support for projects with React-Hot-Loader (ie: Next.js).
 
-## Features
+## When to use
 
-- documentation generating with `jsdoc` with `docdash` template (may be replaced if something better comes in my way)
-- unit tests with `mocha` & `must.js`
-- es6+ first approach, with es5 transpiled version to be found inside `dist` folder *
-- Keep-a-changelog CHANGELOG format as an example of good practice and reminder to write changelogs
-- Rewire plugin for easy testing with mocks
+If your code is crashing with `Cannot read property of undefined` or similar because you've used `react-autobind`
+but it works with `this.method = this.method.bind(this)` - this library is for you.
 
-\* - transpiling kills JS engines optimizations, makes codes longer and tree shaking harder to do and/or slower
+## Usage
 
-## To be done
+Replace your
+```jsx
+import autobind from "react-autobind";
+```
 
-- Eslint integration
-- Task runner
+with
+
+```jsx
+import autobind from "react-autobind-hmr";
+```
+
+Done.
 
 ## License
 

@@ -1,2 +1,0 @@
---require must/register
---require babel-core/register
