@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 (nothing yet)
 
+## [1.0.1] - 2018-06-16
+### Changed
+- README updated with ES5 example
+- README updated with link to online docs
+
 ## [1.0.0] - 2018-03-29
 ### Added
 - first version

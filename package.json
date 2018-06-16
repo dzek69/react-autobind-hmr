@@ -1,6 +1,6 @@
 {
   "name": "react-autobind-hmr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "repository": "https://github.com/dzek69/react-autobind-hmr.git",
   "author": "Jacek Nowacki @dzek69 <git-public@dzek.eu>",
