@@ -1,8 +1,8 @@
 if (process.env.NODE_ENV === "production") {
-    module.exports = require("react-autobind");
+    module.exports = require("./react-autobind@1.0.6/autoBind");
 }
 else {
-    const autobind = require("react-autobind");
+    const autobind = require("./react-autobind@1.0.6/autoBind");
 
     /**
      * Properly autobinds proxied by react-hmr React component methods

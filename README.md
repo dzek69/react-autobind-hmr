@@ -24,11 +24,12 @@ Done.
 
 ## Usage (ES5)
 
-If you're using ES5 (with React? - I don't think so) just import/require `react-autobind-hmr/dist` instead.
+If you're using ES5 just `require` `react-autobind-hmr/dist` instead.
 
 ## Documentation
 
-There is nothing else than this in documentation. [Documentation](react-autobind-hmr) is here however in case of update.
+There is nothing else than this in documentation. [Documentation](https://dzek69.github.io/react-autobind-hmr/) is here
+however in case of update.
 
 ## License
 
