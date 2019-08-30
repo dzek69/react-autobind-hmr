@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 (nothing yet)
 
+## [3.0.0] - 2019-08-30
+### Changed
+- `dist` dir transpilation config set to support current >3% usage browsers
+### Fixed
+- dev deps audit warnings
+
 ## [2.0.0] - 2018-11-17
 ### Changed
 - `react-autobind` is now bundled into this library so aliasing `react-autobind` to `react-autobind-hmr` can work

@@ -1,3 +1,9 @@
+/* eslint-disable */
+/**
+ * Original `react-autobind` code. This is copied here to allow this library to be aliased for `react-autobind`, to fix
+ * dependencies importing `react-autobind`.
+ */
+
 let wontBind = [
   'constructor',
   'render',

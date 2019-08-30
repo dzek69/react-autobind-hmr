@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 if (process.env.NODE_ENV === "production") {
     module.exports = require("./react-autobind@1.0.6/autoBind");
 }
@@ -11,8 +12,8 @@ else {
      * @returns {void}
      */
     module.exports = function fixedAutobind(context) {
-        let _prevContext = context;
-        let _context = context;
+        let _prevContext = context,
+            _context = context;
         while (_context.render && _context.render.name !== "render") {
             _prevContext = _context;
             _context = Object.getPrototypeOf(_context);
